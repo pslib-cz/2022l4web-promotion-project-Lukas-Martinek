@@ -1,0 +1,67 @@
+@media only screen and (min-width: 600px) {
+    main p {
+        max-width: 500px;
+    }
+}
+@media only screen and (min-width: 900px) {
+    main p {
+        max-width: 800px;
+    }
+    .card-container {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+    .card {
+        min-width: 500px;
+    }
+    .gallery {
+        display: flex;
+        max-width: none;
+        flex-wrap: wrap;
+    }
+    .gallery img {
+        width: 50%;
+        filter: grayscale(1);
+    }
+    .gallery img:hover {
+        filter: grayscale(0);
+        transition: ease-in-out 250ms;
+    }
+    footer {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    main p {
+        max-width: 800px;
+    }
+    .card-container {
+        display: flex;
+    }
+    .card {
+        min-width: 500px;
+    }
+    #gallery {
+        display: flex;
+        max-width: none;
+        flex-wrap: wrap;
+    }
+    #gallery img {
+        width: 25%;
+    }
+    .vyroba-container {
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        margin-bottom: 2em;
+    }
+    .vyroba-container img {
+        width: 45%;
+    }
+    .vyroba-container p {
+        max-width: 600px;
+    }
+}
+
