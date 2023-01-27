@@ -2,6 +2,10 @@
     main p {
         max-width: 500px;
     }
+    #gallery div {
+        max-width: 50%;
+    }
+
 }
 @media only screen and (min-width: 900px) {
     main p {
@@ -15,16 +19,15 @@
     .card {
         min-width: 500px;
     }
-    .gallery {
+    #gallery {
         display: flex;
         max-width: none;
         flex-wrap: wrap;
     }
-    .gallery img {
-        width: 50%;
+    #gallery img {
         filter: grayscale(1);
     }
-    .gallery img:hover {
+    #gallery img:hover {
         filter: grayscale(0);
         transition: ease-in-out 250ms;
     }
@@ -45,11 +48,9 @@
     }
     #gallery {
         display: flex;
+        flex-direction: row;
         max-width: none;
-        flex-wrap: wrap;
-    }
-    #gallery img {
-        width: 25%;
+        flex-wrap: nowrap;
     }
     .vyroba-container {
         display: flex;
