@@ -5,6 +5,10 @@
     #gallery div {
         max-width: 50%;
     }
+    nav ul {
+        border-right: 2px white solid;
+        padding-right: 5px;
+    }
 
 }
 @media only screen and (min-width: 900px) {
