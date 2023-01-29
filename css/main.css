@@ -2,6 +2,7 @@
 html {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.1em;
+    scroll-behavior: smooth;
 }
 h1 {
  text-transform: uppercase;
@@ -153,4 +154,9 @@ margin-top: 1em;
 }
 .header-content {
     margin-top: 150px;
+}
+header li:hover {
+    font-weight: 900;
+    transition: 250ms ease-in-out;
+    color: rgb(192, 192, 192);
 }
